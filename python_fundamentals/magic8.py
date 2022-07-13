@@ -2,7 +2,7 @@
 import random
 
 # Variables for the magic eightball to print to console
-name = "charles"
+name = "Charles"
 question = "Will dinner be fried chicken?"
 answer = ""
 random_number = random.randint(1, 9)
@@ -28,3 +28,7 @@ elif random_number == 9:
     answer = "Very doubtful."
 else:
     answer = "Error"
+
+# print result to console
+print(name + " asks: " + question)
+print("Magic 8-Ball's answer: " + answer)
