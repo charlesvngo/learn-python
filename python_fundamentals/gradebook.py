@@ -18,3 +18,12 @@ gradebook.append(["computer science", 100])
 gradebook.append(["visual arts", 93])
 
 print(gradebook)
+
+gradebook[-1][-1] += 5
+
+print(gradebook)
+
+gradebook[2].remove(gradebook[2][1])
+gradebook[2].append("Pass")
+
+print(gradebook)
