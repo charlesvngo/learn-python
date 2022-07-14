@@ -13,3 +13,8 @@ grades = [80, 96, 97, 65]
 gradebook = [["physics", 80], ["calculus", 97], ["poetry", 85], ["history", 88]]
 
 print(gradebook)
+
+gradebook.append(["computer science", 100])
+gradebook.append(["visual arts", 93])
+
+print(gradebook)
