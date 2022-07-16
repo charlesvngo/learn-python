@@ -25,4 +25,14 @@ pizza_and_prices = [
     [2, "mushrooms"],
 ]
 
+# Manipulate the data
+pizza_and_prices.sort()
+cheapest_pizza = pizza_and_prices[0]
+
+priciest_piza = pizza_and_prices[-1]
+pizza_and_prices.pop()
+
 print(pizza_and_prices)
+three_cheapest = pizza_and_prices[:3]
+
+print(three_cheapest)
