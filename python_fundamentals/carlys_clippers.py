@@ -22,7 +22,7 @@ for price in prices:
 
 average_price = total_price / len(prices)
 
-print("Average haircut price:", average_price)
+print("Average haircut price:", str(average_price))
 
 new_prices = [price - 5 for price in prices]
 
@@ -32,7 +32,7 @@ total_revenue = 0
 for i in range(len(hairstyles)):
     total_revenue += prices[i] * last_week[i]
 
-print("Total Revenue:", total_revenue)
+print("Total Revenue:", str(total_revenue))
 
 cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if prices[i] < 30]
 
