@@ -138,3 +138,10 @@ for i in range(len(transactions_clean)):
 print(customers)
 print(sales)
 print(thread_sold)
+
+total_sales = 0
+for sale in sales:
+    value = sale.strip("$")
+    total_sales += float(value)
+
+print(total_sales)
